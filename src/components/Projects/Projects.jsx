@@ -3,6 +3,7 @@ import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 import peiDigitalImg from "../../assets/pei-digital.png";
 import bosqueSuporte from "../../assets/bosque-suporte.png"
 import equipamentos from "../../assets/equipamentos.png"
+import saldo from "../../assets/saldo.png"
 
 export default function Projects() {
   const projects = [
@@ -35,6 +36,16 @@ export default function Projects() {
       image: equipamentos,
       github: "https://github.com/Nayana-Oliveira/Equipamentos-Pedagogicos",
       demo: "https://equipamentos-pedagogicos.vercel.app/",
+    },
+    {
+      id: 4,
+      title: "Saldo+",
+      description:
+        "Uma aplicação Full Stack de controle financeiro pessoal, desenvolvida com React, FastAPI e SQLite. Permite gerenciar receitas e despesas, acompanhar contas pagas e pendentes e projetar quanto dinheiro sobrará no fim do mês.",
+      technologies: ["React", "Python", "SQLite"],
+      image: saldo,
+      github: "https://github.com/Nayana-Oliveira/Saldo-",
+      demo: "https://saldo-smoky.vercel.app/",
     },
   ];
 
