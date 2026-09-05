@@ -88,7 +88,7 @@ npm run dev
 
 Depois acesse o endereço exibido pelo Vite no terminal.
 
-## 📧ormulário de contato
+## Formulário de contato
 
 O formulário utiliza o EmailJS para realizar o envio das mensagens.
 
