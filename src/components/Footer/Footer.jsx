@@ -5,7 +5,7 @@ export default function Footer() {
     <footer className="footer">
       <div className="footer-container">
         <a href="#" className="footer-logo">
-          &lt;<span>Dev Nayana</span>/&gt;
+          &lt;<span>Nay</span>/&gt;
         </a>
 
         <p>

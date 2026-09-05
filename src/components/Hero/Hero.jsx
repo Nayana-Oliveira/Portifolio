@@ -20,7 +20,11 @@ export default function Hero() {
         </p>
 
         <div className="hero-actions">
-          <a href="/curriculo.pdf" className="hero-primary">
+          <a
+            href="/curriculo.pdf"
+            download="Curriculo-Nayana-Oliveira.pdf"
+            className="hero-primary"
+          >
             Download CV
           </a>
 

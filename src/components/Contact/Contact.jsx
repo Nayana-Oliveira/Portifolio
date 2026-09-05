@@ -48,17 +48,25 @@ export default function Contact() {
         </p>
 
         <div className="contact-links">
-          <a href="mailto:seuemail@email.com">
+          <a href="mailto:nayanaheslley123@gmail.com">
             <FaEnvelope />
-            seuemail@email.com
+            nayanaheslley123@gmail.com
           </a>
 
-          <a href="SEU_LINKEDIN" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://www.linkedin.com/in/nayana-dev/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <FaLinkedin />
             LinkedIn
           </a>
 
-          <a href="SEU_GITHUB" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://github.com/Nayana-Oliveira"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <FaGithub />
             GitHub
           </a>
