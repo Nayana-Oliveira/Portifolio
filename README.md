@@ -123,7 +123,6 @@ Durante o deploy, as variáveis utilizadas pelo EmailJS devem ser cadastradas na
 Desenvolvedora Full Stack
 
 - GitHub: [Nayana-Oliveira](https://github.com/Nayana-Oliveira)
-- LinkedIn: [Adicionar LinkedIn]
 
 ---
 
