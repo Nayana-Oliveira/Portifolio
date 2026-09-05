@@ -1,16 +1,130 @@
-# React + Vite
+# Portfólio Pessoal
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Portfólio pessoal desenvolvido para apresentar minha trajetória como desenvolvedora, minhas habilidades técnicas, formação, projetos e formas de contato.
 
-Currently, two official plugins are available:
+A aplicação foi construída com React.js e Vite, seguindo uma interface moderna, responsiva e focada em proporcionar uma navegação simples e agradável.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Funcionalidades
 
-## React Compiler
+- Apresentação profissional
+- Download do currículo
+- Exibição das principais tecnologias e habilidades
+- Seção de formação acadêmica
+- Projetos em destaque
+- Links para GitHub e demonstrações dos projetos
+- Formulário de contato funcional
+- Envio de mensagens através do EmailJS
+- Links para redes profissionais
+- Layout responsivo para diferentes dispositivos
+- Animações e efeitos de hover
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tecnologias
 
-## Expanding the ESLint configuration
+O projeto foi desenvolvido utilizando:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React.js
+- JavaScript
+- Vite
+- HTML5
+- CSS3
+- React Icons
+- EmailJS
+
+## Estrutura do Projeto
+
+```text
+src/
+├── assets/
+│   └── projects/
+│
+├── components/
+│   ├── Navbar/
+│   ├── Hero/
+│   ├── About/
+│   ├── TechStack/
+│   ├── Projects/
+│   ├── Contact/
+│   └── Footer/
+│
+├── App.jsx
+├── App.css
+├── index.css
+└── main.jsx
+```
+
+## Como executar
+
+Clone o repositório:
+
+```bash
+git clone URL_DO_SEU_REPOSITORIO
+```
+
+Entre na pasta:
+
+```bash
+cd portfolio
+```
+
+Instale as dependências:
+
+```bash
+npm install
+```
+
+Crie um arquivo `.env` na raiz do projeto:
+
+```env
+VITE_EMAILJS_SERVICE_ID=seu_service_id
+VITE_EMAILJS_TEMPLATE_ID=seu_template_id
+VITE_EMAILJS_PUBLIC_KEY=sua_public_key
+```
+
+Execute o projeto:
+
+```bash
+npm run dev
+```
+
+Depois acesse o endereço exibido pelo Vite no terminal.
+
+## 📧ormulário de contato
+
+O formulário utiliza o EmailJS para realizar o envio das mensagens.
+
+As configurações são armazenadas através de variáveis de ambiente:
+
+```env
+VITE_EMAILJS_SERVICE_ID
+VITE_EMAILJS_TEMPLATE_ID
+VITE_EMAILJS_PUBLIC_KEY
+```
+
+O arquivo `.env` não deve ser enviado para o repositório.
+
+## Responsividade
+
+O portfólio foi desenvolvido para funcionar em diferentes tamanhos de tela, incluindo:
+
+- Desktop
+- Tablet
+- Smartphone
+
+## Deploy
+
+O projeto pode ser publicado utilizando a Vercel.
+
+Durante o deploy, as variáveis utilizadas pelo EmailJS devem ser cadastradas nas configurações de **Environment Variables** da Vercel.
+
+## Autora
+
+**Nayana Oliveira**
+
+Desenvolvedora Full Stack
+
+- GitHub: [Nayana-Oliveira](https://github.com/Nayana-Oliveira)
+- LinkedIn: [Adicionar LinkedIn]
+
+---
+
+Desenvolvido com React.js.
